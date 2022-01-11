@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio design | 3</title>
+  <link rel="stylesheet" href="normalise.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+  <!-- Favicon -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<!--left panel navigation & buttons-->
+<nav>
+  <div class="container">
+    <div class="navbar-nav pt-4">
+      <a id="logo"><strong>JUDY LJ</strong></a>
+      <a href="#projects-target">projects</a>
+      <a href="#about-target">about</a>
+      <a href="#contact-target">contact</a>
+      <!--social media button / links-->
+    </div>
+    <div class="socials-buttons">
+      <button onclick="window.location='https://www.linkedin.com';" type="button">LinkedIn</button>
+      <button onclick="window.location='https://www.instagram.com/judyljphoto';" type="button">Instagram</button>
+      <button onclick="window.location='https://github.com/Judylj';" type="button">Github</button>
+    </div>
+  </div>
+</nav>
+<!--background change, primary introduction text-->
+<section class="background-1">
+  <div class="container pt-5">
+    <div class="intro-header pt-5">
+      <p>Hi I'm <u>Judy LJ</u>, Software Developer
+        from Bristol.<br> I've just finished a full stack development
+        training with <u>iO Academy</u><br> and I'm ready
+        for my next challenge 🦾</p>
+    </div>
+  </div>
+</section>
+<!--background change, secondary introduction text-->
+<section class="background-2">
+  <div class="container">
+    <div class="intro-header-2">
+      <p>Creative • Collaborative • Consistent</p>
+    </div>
+  </div>
+</section>
+<!--list of projects w their corresponding images & links-->
+<section class="background-3">
+  <div class="container">
+    <a name="projects-target"><div class="projects-header"></div></a>
+    <h6>projects</h6>
+    <hr>
+    <div class="projects">
+      <img src="assets/images/pulse-screenshot.jpg">
+      <h6><u>Pulse</u><br>
+        A Doctors booking application & final<br>
+        project built using the MERN stack.</h6>
+      <div></div>
+    </div>
+    <!--            pulse content links and image, tech stack-->
+    <div class="project-link-content">
+      <div class="project-buttons">
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://github.com/iO-Academy/2021-aug-pulse-fe.git">Frontend</a></button>
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://github.com/iO-Academy/2021-aug-pulse-be.git">Backend</a></button>
+        <!--                <button type="button" class="btn btn-outline-primary btn-sm"><a>website</a></button>-->
+      </div>
+      <!--            project tech icons-->
+      <div class="project-icons">
+        <img src="assets/tech/react.png" title="react">
+        <img src="assets/tech/mongodb-svgrepo-com.svg" title="mongoDB">
+        <img src="assets/tech/nodejs-svgrepo-com.svg" title="node.js">
+        <img src="assets/tech/bootstrap-4-logo-svgrepo-com.svg" title="bootstrap">
+      </div>
+    </div>
+    <hr>
+    <!--JavaScript Game project-->
+    <div class="projects">
+      <img src="assets/images/game.jpg">
+      <h6><u>JavaScript Game</u><br>
+        A Whack-a-Mole style game. Try the<br>
+        nightmare mode if you want a challenge!</h6>
+      <div></div>
+    </div>
+    <!--            JavaScript Game content links and image, tech stack-->
+    <div class="project-link-content">
+      <div class="project-buttons">
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://github.com/iO-Academy/2021-aug-whackamole.git">code</a></button>
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://dev.io-academy.uk/projects/2021-aug/2021-aug-whackamole/index.html">website</a></button>
+      </div>
+      <!--            project tech icons-->
+      <div class="project-icons">
+        <img src="assets/tech/javascript.png" title="javascript">
+        <img src="assets/tech/css.png" title="css">
+        <img src="assets/tech/html.png" title="html">
+        <img src="assets/tech/bootstrap-4-logo-svgrepo-com.svg" title="bootstrap">
+      </div>
+    </div>
+    <hr>
+    <!--OOP transformers project-->
+    <div class="projects">
+      <img src="assets/images/transformersOop.jpg">
+      <h6><u>OOP Project - Collectors App</u><br>
+        A Collection app built using an external<br>
+        API and adhering to OOP principles.</h6>
+      <div></div>
+    </div>
+    <!--            OOP Transformers content links and image, tech stack-->
+    <div class="project-link-content">
+      <div class="project-buttons">
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://github.com/iO-Academy/2021-aug-oopTransformers.git">code</a></button>
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://dev.io-academy.uk/projects/2021-aug/2021-aug-oopTransformers/">website</a></button>
+      </div>
+      <!--            project tech icons-->
+      <div class="project-icons">
+        <img src="assets/tech/php.png" title="react">
+        <img src="assets/tech/javascript.png" title="mongoDB">
+        <img src="assets/tech/css.png" title="css">
+        <img src="assets/tech/bootstrap-4-logo-svgrepo-com.svg" title="bootstrap">
+      </div>
+    </div>
+    <hr>
+    <!--        academy portal project-->
+    <div class="projects">
+      <img src="assets/images/academyPortal.jpg">
+      <h6><u>Academy Portal</u><br>
+        Adding further functionality and<br>
+        fixing bugs of an existing codebase.<br>
+        We used circle CI for integration testing<br>
+        and utilised a SLIM framework. </h6>
+      <div></div>
+    </div>
+    <!--            Academy Portal content links and image, tech stack-->
+    <div class="project-link-content">
+      <div class="project-buttons">
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://github.com/iO-Academy/AcademyPortal.git">code</a></button>
+        <!--                <button type="button" class="btn btn-outline-primary btn-sm"><a>website</a></button>-->
+      </div>
+      <!--            project tech icons-->
+      <div class="project-icons">
+        <img src="assets/tech/php.png" title="php">
+        <img src="assets/tech/javascript.png" title="javascript">
+        <img src="assets/tech/html.png" title="html">
+        <img src="assets/tech/css.png" title="css">
+      </div>
+    </div>
+    <hr>
+    <!--Aptitude test project-->
+    <div class="projects">
+      <img src="assets/images/aptitude-test.jpg">
+      <h6><u>Aptitude Test</u><br>
+        Extended and improved the functionality<br>
+        of an existing codebase whilst fixing existing<br>
+        bugs.</h6>
+      <div></div>
+    </div>
+    <!--            Aptitude Test content links and image, tech stack-->
+    <div class="project-link-content">
+      <div class="project-buttons">
+        <button type="button" class="btn btn-outline-primary btn-sm"><a href="https://github.com/iO-Academy/aptitude-test-react.git">code</a></button>
+        <!--                <button type="button" class="btn btn-outline-primary btn-sm"><a>website</a></button>-->
+      </div>
+      <!--            project tech icons-->
+      <div class="project-icons">
+        <img src="assets/tech/react.png" title="react">
+        <img src="assets/tech/sql-server.png" title="sql">
+        <img src="assets/tech/sass-svgrepo-com.svg" title="sass">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="background-2">
+  <div class="container">
+    <a name="about-target"></a><div class="about-section">
+    <h6>about</h6>
+    <hr>
+    <div class="about-content">
+      <p>For the past four months I've been training to become<br>
+        A Software Developer. I love working with other people<br>
+        to turn complex problems into simple solutions with a<br>
+        creative approach & a focus on design.
+      </p>
+      <img src="assets/images/portrait-judy-face.jpg" id="judy-portrait" width="250" height="300">
+    </div>
+  </div>
+  </div>
+</section>
+<section class="background-3">
+  <a name="contact-target"></a><div class="container">
+  <div class="contact-section">
+    <h6>contact</h6>
+    <hr>
+    <div class="email-phone">
+      <h6>email: judyelewisjones@hotmail.co.uk</h6>
+      <h6>mobile: +44 07816935517</h6>
+      <hr>
+    </div>
+  </div>
+</div>
+</section>
+</body>
+</html>
